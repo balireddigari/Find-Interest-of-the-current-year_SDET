@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="pack13.AllAnnotations"/>
+      <class name="pack13.MyFirst"/>
+      <class name="pack16.InvoxcationCount"/>
+      <class name="pack14.Assertions"/>
+      <class name="pack16.ParamTest"/>
+      <class name="pack15.Grouping"/>
+      <class name="pack17.NonCommerceTests"/>
+      <class name="pack12.LoginTest"/>
+      <class name="pack13.SecondTest"/>
+      <class name="pack17.Listeners"/>
+      <class name="pack13.Annotations"/>
+      <class name="pack15.DataProviderDemo"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
